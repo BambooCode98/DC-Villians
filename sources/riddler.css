@@ -1,0 +1,92 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    border: 1px red solid;
+    height: 100vh;
+    color: white;
+}
+
+    .header {
+        /* border: 1px red solid; */
+        height: 15%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: #399148; */
+        background-color: black;
+    }
+
+        h1 {
+            /* border: 1px red solid; */
+            width: 25%;
+            text-align: center;
+        }    
+    
+        .villains {
+            /* border: 1px red solid; */
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .joker {
+                /* border: 1px red solid; */
+            }
+
+            .riddler {
+                /* border: 1px red solid; */
+            }
+
+            .scarecrow {
+                /* border: 1px red solid; */
+            }
+
+    .bodycontent {
+        /* border: 1px red solid; */
+        height: 80%;
+        width: 100%;
+        background-image: url(../img/riddlerqmarks.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .riddlegenerator {
+            /* border: 1px red solid; */
+            height: 55%;
+            width: 50%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+        }
+
+            .qmark {
+                height: 40%;
+                width: 20%;
+                margin: 25px;
+                border-radius: 5px;
+            }
+
+            #generator {
+                padding: 15px;
+                
+            }
+
+    .footer {
+        /* border: 1px red solid; */
+        height: 5%;
+        width: 100%;
+        background-color: black;
+    }
