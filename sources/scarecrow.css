@@ -6,12 +6,12 @@
     border: 1px red solid;
     height: 100vh;
     color: white;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c44eba+0,6fbf2d+32,68c900+76,6b191b+96 */
-    background: #c44eba; /* Old browsers */
-    background: -moz-linear-gradient(top,  #c44eba 0%, #6fbf2d 32%, #68c900 76%, #6b191b 96%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #c44eba 0%,#6fbf2d 32%,#68c900 76%,#6b191b 96%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #c44eba 0%,#6fbf2d 32%,#68c900 76%,#6b191b 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c44eba', endColorstr='#6b191b',GradientType=0 ); /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+31,0a0e0a+65,0a0809+100 */
+    background: rgb(174,188,191); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(174,188,191,1) 0%, rgba(110,119,116,1) 31%, rgba(10,14,10,1) 65%, rgba(10,8,9,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 31%,rgba(10,14,10,1) 65%,rgba(10,8,9,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 31%,rgba(10,14,10,1) 65%,rgba(10,8,9,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
 
 }
 
@@ -26,10 +26,18 @@
         /* background-color: rgb(80, 46, 80); */
     }
 
+        .mainlink {
+            border: black 1px solid;
+            width: 100%;
+            text-align:center;
+            padding-right: 35px;
+        }
+
         h1 {
-            border: 1px red solid;
+            border: 1px green solid;
             width: 25%;
             text-align: center;
+            padding-right: 25px;
         }    
     
         .villains {
@@ -52,11 +60,11 @@
                 border: 1px red solid;
             }
 
-            .lex {
-                border: 1px red solid; 
+            .scarecrow {
+                border: 1px red solid;
             }
 
-            .scarecrow {
+            .lex {
                 border: 1px red solid;
             }
 

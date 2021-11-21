@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 0;
     align-items: center;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 100vh;
     color: white;
 }
@@ -58,7 +58,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
+
+        .name {
+            /* border: 1px red solid; */
+            width: 80%;
+            font-weight: 800;
+            font-size: 100px;
+            margin-bottom: 75px;
+        }
 
         .riddlegenerator {
             /* border: 1px red solid; */
@@ -70,6 +79,7 @@
             align-items: center;
             flex-direction: column;
             border-radius: 10px;
+            margin-bottom: 130px;
         }
 
             .qmark {

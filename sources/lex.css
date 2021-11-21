@@ -1,0 +1,83 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    border: 1px red solid;
+    height: 100vh;
+    color: white;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c44eba+0,6fbf2d+32,68c900+76,6b191b+96 */
+    background: #c44eba; /* Old browsers */
+    background: -moz-linear-gradient(top,  #c44eba 0%, #6fbf2d 32%, #68c900 76%, #6b191b 96%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #c44eba 0%,#6fbf2d 32%,#68c900 76%,#6b191b 96%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #c44eba 0%,#6fbf2d 32%,#68c900 76%,#6b191b 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c44eba', endColorstr='#6b191b',GradientType=0 ); /* IE6-9 */
+
+}
+
+.header {
+    border: 1px red solid;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(80, 46, 80); */
+}
+
+    .mainlink {
+        border: black 1px solid;
+        width: 100%;
+        text-align:center;
+        padding-right: 35px;
+    }
+
+    h1 {
+        border: 1px green solid;
+        width: 25%;
+        text-align: center;
+        padding-right: 25px;
+    }    
+
+    .villains {
+        border: 1px red solid;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .joker {
+            border: 1px red solid;
+        }
+
+        .riddler {
+            border: 1px red solid;
+        }
+
+        .scarecrow {
+            border: 1px red solid;
+        }
+
+        .lex {
+            border: 1px red solid;
+        }
+
+.bodycontent {
+    border: 1px red solid;
+    height: 80%;
+    width: 100%;
+    /* background-color: rgb(88, 238, 88); */
+}
+
+.footer {
+    border: 1px red solid;
+    height: 5%;
+    width: 100%;
+    /* background-color: #8C4A3B; */
+}
