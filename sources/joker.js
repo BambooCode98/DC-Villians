@@ -5,25 +5,25 @@ jjoke.addEventListener("click", randomJ);
 function randomJ() {
     let rand = Math.floor(Math.random() * 100);
     if (rand < 10) {
-        jenerator.textContent = "CRAZY"
+        jenerator.textContent = "JOKER"
     } else if (rand >= 10 && rand < 20) {
-        jenerator.textContent = "CRAZIER"
+        jenerator.textContent = "Haven't you ever heard of the healing power of laughter?"
     } else if (rand >= 20 && rand < 30) {
-        jenerator.textContent = "CRAZIEST"
+        jenerator.textContent = "I believe whatever doesn't kill you, simply makes you stranger."
     } else if (rand >= 30 && rand < 40) {
-        jenerator.textContent = "What gets harder to catch the faster you run?"
+        jenerator.textContent = "Why did the Joker call the sidekick of Batman a frog? Because he was Jason Toad!";
     } else if (rand >= 40 && rand < 50) {
-        jenerator.textContent = "I am first on earth and second in Heaven and appear twice per week. What am I?"
+        jenerator.textContent = "All it takes is one bad day to reduce the sanest man alive to lunacy. That's how far the world is from where I am. Just one bad day."
     } else if (rand >= 50 && rand < 60) {
-        jenerator.textContent = "I have keys but no locks, I have space but no room, you can enter but not go outside. What am I?"
+        jenerator.textContent = "What would the Joker say if he had a memory problem? He would ask you, 'Do you know how I got these scars?'"
     } else if (rand >= 60 && rand < 70) {
-        jenerator.textContent = "What has two hands, a rouund face, always runs, yet always stays in place, too?"
+        jenerator.textContent = "What do you say when the Joker lets you go as a hostage? That was a really nice jesture!"
     } else if (rand >= 70 && rand < 80) {
-        jenerator.textContent = "I like to dance, twist, and prance. I shake my tail as high as I sail away. I fly up into the sky. What am I?"
+        jenerator.textContent = "When Robin went to buy some food at Joker's restaurant, the Joker refused to get him food because he had a crowbar!"
     } else if (rand >= 80 && rand < 90) {
-        jenerator.textContent = "I sit in the corner while traveling around the world. What am I?"
+        jenerator.textContent = "The Joker absolutely hates drinking this one beverage. It is called socie-tea!"
     } else if (rand >= 90 && rand < 100) {
-        jenerator.textContent = "When does a painter use a trigger instead of a brush?"
+        jenerator.textContent = "The Joker recently won a Nobel Prize in Physics. This was because he had done some ground-breaking work in Chaos Theory!?"
     }
     
 }

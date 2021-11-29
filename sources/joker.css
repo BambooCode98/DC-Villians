@@ -3,8 +3,8 @@
     flex-direction: column;
     margin: 0;
     align-items: center;
-    border: 1px red solid;
-    height: 100vh;
+    /* border: 1px red solid; */
+    height: 150vh;
     color: white;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#701665+0,4d8e51+100&1+0,0.32+99 */
     background: -moz-linear-gradient(top,  rgba(112,22,101,1) 0%, rgba(77,141,81,0.32) 99%, rgba(77,142,81,0.32) 100%); /* FF3.6-15 */
@@ -15,18 +15,18 @@
 }
 
 .header {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 15%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background-color: rgb(80, 46, 80); */
+    background-color: rgb(80, 46, 80);
 }
 
     .mainlink {
-        border: black 1px solid;
+        /* border: black 1px solid; */
         width: 100%;
         text-align:center;
         padding-right: 35px;
@@ -40,7 +40,7 @@
     }    
 
     .villains {
-        border: 1px red solid;
+        /* border: 1px red solid; */
         display: flex;
         width: 100%;
         justify-content: space-evenly;
@@ -52,68 +52,69 @@
         }
 
         .joker {
-            border: 1px red solid;
+            /* border: 1px red solid; */
         }
 
         .riddler {
-            border: 1px red solid;
+            /* border: 1px red solid; */
         }
 
         .scarecrow {
-            border: 1px red solid;
+            /* border: 1px red solid; */
         }
 
         .lex {
-            border: 1px red solid;
+            /* border: 1px red solid; */
         }
 
-    .bodycontent {
-        border: 1px red solid;
-        height: 80%;
-        width: 100%;
+.bodycontent {
+    /* border: 1px red solid; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(88, 238, 88); */
+}
+
+    .name {
+        /* border: 1px red solid; */
+        width: 80%;
+        font-weight: 800;
+        font-size: 100px;
+        margin-bottom: 75px;
+        margin-top: 150px;
+    }
+
+    .jokegenerator {
+        /* border: 1px red solid; */
+        height: 75%;
+        width: 70%;
+        background-color: black;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        /* background-color: rgb(88, 238, 88); */
+        border-radius: 10px;
+        margin-bottom: 130px;
     }
 
-        .name {
-            /* border: 1px red solid; */
-            width: 80%;
-            font-weight: 800;
-            font-size: 100px;
-            margin-bottom: 75px;
+        .jokes {
+            height: 60%;
+            width: 30%;
+            margin: 25px;
+            border-radius: 5px;
         }
 
-        .jokegenerator {
+        #jenerator {
+            padding: 15px;
             /* border: 1px red solid; */
-            height: 55%;
-            width: 50%;
-            /* background-color: black; */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            border-radius: 10px;
-            margin-bottom: 130px;
         }
-
-            .jokes {
-                height: 40%;
-                width: 20%;
-                margin: 25px;
-                border-radius: 5px;
-            }
-
-            #jenerator {
-                padding: 15px;
-                border: 1px red solid;
-            }
 
 .footer {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 5%;
     width: 100%;
-    /* background-color: #8C4A3B; */
+    background-color: rgb(80, 46, 80);
 }
